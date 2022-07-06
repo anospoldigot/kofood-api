@@ -11,7 +11,7 @@ class SellerController extends Controller
     {   
 
         $per_page = request()->get('per_page');
-        t 
+        
         return response()->json([
             'message' => 'success get all seller',
             'data' => [
